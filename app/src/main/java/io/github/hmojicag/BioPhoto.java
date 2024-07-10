@@ -62,4 +62,12 @@ public class BioPhoto {
     public void setFeatures(float[] features) {
         this.features = features;
     }
+
+    @Override
+    public String toString() {
+        return "BioPhoto{" +
+                "empresa=" + empresa +
+                ", empleado=" + empleado +
+                '}';
+    }
 }
